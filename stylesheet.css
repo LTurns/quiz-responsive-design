@@ -11,10 +11,17 @@
 
 body {
     background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
+/* .container-fluid {
+border-right: 20px solid black;
+border-left: 20px solid black;
+} */
+
 p, #login, .brand, .webpage {
-    font-size: 13px;
+    font-size: 12px;
 }
 
 p {
@@ -24,26 +31,30 @@ p {
 #login {
     background-color: orange;
     border: none;
-    font-size: 13px;
 }
 
-img {
-    display: block;
+h5 {
+    line-height: 1.5em;
 }
 
-.container-fluid {
-    overflow: hidden;
+#webpage {
+    margin-bottom: 20px;
+    margin-top: 10px;
 }
 
-@media screen and (min-width:768px){
+
+@media screen and (min-width:600px){
     .leftside, .rightside {
         height: 100vh;
     } 
 }
 
 
-@media screen and (max-width: 768px){
-    [class*="col-"] {
-        width: 100%;
-      }
+@media screen and (max-width: 600px){
+    [class*="col-"] { width: 100%; }
+     #webpage { height: 230px;}
+     h5 { font-size: 17px;}
+     p { text-align: center; }
+     body { margin-left: 5px;
+           margin-right: 5px; }
 }
