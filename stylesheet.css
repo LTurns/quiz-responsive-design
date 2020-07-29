@@ -54,7 +54,13 @@ h5 {
     [class*="col-"] { width: 100%; }
      #webpage { height: 230px;}
      h5 { font-size: 17px;}
-     p { text-align: center; }
+     p { text-align: center; 
+    padding-bottom: 20px;}
      body { margin-left: 5px;
-           margin-right: 5px; }
+          margin-right: 5px;
+        margin-bottom: 0; }
+
+
+
+
 }
