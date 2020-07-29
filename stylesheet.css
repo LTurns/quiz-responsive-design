@@ -1,38 +1,49 @@
-.rightside, .leftside {
-    height: 50vh;
-    /* vertical height - different to simply 100%. covers whole page */
-    width: 100%;
-}
-
-@media screen and (min-width:768px){
-    .leftside, .rightside{
-        height: 100vh;
-    }
-}
-/* this media query ensures that when the size is of a certain height, 
-the design will switch to horizontal from vertical (so it can be used on phones). */
 
 .leftside{
     background-color: #fff;
+    /* overflow: hidden; */
 }
 
 .rightside {
-    background-color: #F5F5F5;
+    background-color: #f8f8f8;
+    /* overflow: hidden; */
 }
 
 body {
     background-color: black;
 }
 
-p {
+p, #login, .brand, .webpage {
     font-size: 13px;
-    color: #909090;
-    padding: 10px;
 }
 
-#button {
+p {
+    color: #909090;
+}
+
+#login {
     background-color: orange;
     border: none;
     font-size: 13px;
-    padding: 10px;
+}
+
+img {
+    display: block;
+}
+
+.container-fluid {
+    overflow: hidden;
+}
+
+@media screen and (min-width:768px){
+    .leftside, .rightside {
+        height: 100vh;
+    } 
+}
+
+
+@media screen and (max-width: 768px){
+    [class*="col-"] {
+        width: 100%;
+      }
 }
