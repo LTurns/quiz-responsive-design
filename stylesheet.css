@@ -1,0 +1,32 @@
+.rightside, .leftside {
+    height: 50vh;
+    /* vertical height - different to simply 100%. covers whole page */
+    width: 100%;
+}
+
+@media screen and (min-width:768px){
+    .leftside, .rightside{
+        height: 100vh;
+    }
+}
+/* this media query ensures that when the size is of a certain height, 
+the design will switch to horizontal from vertical (so it can be used on phones). */
+
+.leftside{
+    background-color: #fff;
+}
+
+.rightside {
+    background-color: #F5F5F5;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-size: 13px;
+    color: #909090;
+
+}
+
