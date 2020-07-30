@@ -5,7 +5,7 @@
 
 Please refer <a href="http://lizzie-mockup-tech.s3-website.us-east-2.amazonaws.com">here </a> for my mock-up. I was able to add the images and text very easily. If that was not the case, I would have added a div labelled "image" and Lorem Ipsum as filler. 
 
-To see code, please visit [CSS](https://github.com/LTurns/responsive_design/blob/master/stylesheet.css) and [HTML](https://github.com/LTurns/responsive_design/blob/master/index.html) files in repo.
+To see code, please visit [CSS](https://github.com/LTurns/responsive_design/blob/master/css/stylesheet.css) and [HTML](https://github.com/LTurns/responsive_design/blob/master/index.html) files in repo.
 
 2. 
 ````
