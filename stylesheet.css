@@ -1,13 +1,7 @@
 
-.leftside{
-    background-color: #fff;
-    /* overflow: hidden; */
-}
+.leftside{ background-color: #fff; }
 
-.rightside {
-    background-color: #f8f8f8;
-    /* overflow: hidden; */
-}
+.rightside { background-color: #f8f8f8; }
 
 body {
     background-color: black;
@@ -15,18 +9,9 @@ body {
     margin-right: 20px;
 }
 
-/* .container-fluid {
-border-right: 20px solid black;
-border-left: 20px solid black;
-} */
+p, #login, .brand, .webpage { font-size: 12px; }
 
-p, #login, .brand, .webpage {
-    font-size: 12px;
-}
-
-p {
-    color: #909090;
-}
+p { color: #909090; }
 
 #login {
     background-color: orange;
@@ -34,9 +19,7 @@ p {
     margin-bottom: 20px;
 }
 
-h5 {
-    line-height: 1.5em;
-}
+h5 { line-height: 1.5em; }
 
 #webpage {
     margin-bottom: 20px;
