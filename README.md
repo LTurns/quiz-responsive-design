@@ -1,9 +1,9 @@
-# Tech Interview 
+# Tech Quiz 
 
 
 1. 
 
-Please refer <a href=http://lizzie-mockup-tech.s3-website.us-east-2.amazonaws.com/">here</a> for my mock-up. I was able to screenshot the images and add them, which didn't take too much time. If this had taken longer, I would have simplified the mock and added an "image" box instead. :)
+Please refer <a href="http://lizzie-mockup-tech.s3-website.us-east-2.amazonaws.com">here </a> for my mock-up. I was able to add the images via screenshot very easily. If that was not the case, I would have added a div labelled "image" inside. :)
 
 To see code, please visit CSS and HTML files in repo. 
 
