@@ -104,7 +104,7 @@ function getPlaybackTime(user_id, records){
 
 6. Shortcomings & Limitations
 
-* Refactoring - lots of code here. With more time, I would attempt to make some of the steps much clearer. 
+* Refactoring - lots of code here. With more time, I would attempt to make some of the steps much clearer and cleaner. 
 * Scalability may be a potential limitation - if there were 1000s of results, pushing every "start" and "stop" into a
 separate array would take a lot of time. One way to cater against this would be to focus on sections of the array instead of iterating over every object - we know that the initial start times are likely to be at the beginning of the array, for example. 
 
